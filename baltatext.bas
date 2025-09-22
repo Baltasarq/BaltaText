@@ -47,7 +47,7 @@
 8060 LET i=i+1
 8070 LET col=col+1
 8080 GO TO 8030
-8100 PRINT t$: INPUT o$
+8100 LPRINT t$
 8110 RETURN
 9000 REM Insert line change
 9010 IF i<1 OR t$(i)=" " THEN GO TO 9040
